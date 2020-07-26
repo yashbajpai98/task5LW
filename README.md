@@ -69,13 +69,17 @@ Here, the deployments have been created using the custom image that I have creat
 <h3>Commands to create the above pv and pvc yml file on minikube :</h3>
 
 <b>kubectl create -f  pv-prometheus.yml
+
 kubectl create -f  pvc-prometheus.yml
+ 
 kubectl create -f  pv-grafana.yml
+
 kubectl create -f  pvc-grafana.yml</b>
 
 <h3>Commands to create the above deployments yml file on minikube :</h3>
 
 <b>kubectl create -f  pod-prometheus.yml
+
 kubectl create -f  pod-grafana.yml
 </b>
 
