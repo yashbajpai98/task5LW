@@ -33,7 +33,7 @@ Firstly, I have created the Docker Image using the Dockerfile for both Prometheu
 
 <h3>Grafana :-</h3>
 
-![grafana](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/grafana-Dockerfile.png)
+![grafana](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/grafana-Dockerfile.png)
 
 
 After creating the Dockerfile, I have pushed them into my dockerhub account and then created the pv and pvc file on minikube.
@@ -42,27 +42,27 @@ After creating the Dockerfile, I have pushed them into my dockerhub account and 
 
 A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes.
 
-![pv](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pv-prometheus.png)   
+![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-prom.png)   
  
  A PersistentVolumeClaim (PVC) is a request for storage by a user.
 
-![pvc](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pvc-prometheus.png)
+![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-prom.png)
 
 
 <h3>Persistent Volume(PV) & Persistent Volume Claim(PVC) for Grafana :-</h3>
 
-![pv](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pv-grafana.png)    
-![pvc](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pvc-grafana.png)
+![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-graf.png)    
+![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-graf.png)
 
 After creating the pvc's we attach them to the deployment files of prometheus and grafana.
 
 <h3>Prometheus Deployment file :</h3>
 
-![prom](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pod-prometheus.png)
+![prom](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-prom.png)
 
 <h3>Grafana Deployment file :</h3>
 
-![gra](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/pod-grafana.png)
+![gra](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-graf.png)
 
 Here, the deployments have been created using the custom image that I have created and pushed into my DockerHub account.
 
@@ -85,7 +85,7 @@ kubectl create -f  pod-grafana.yml
 
 <h4>Lastly, I have exposed the deployments so that it can be accessed from the outside world.</h4>
 
-![exp](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/exposing.png)
+![exp](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/exposing.png)
 
 <h5>After Exposing : </h5>
 
@@ -93,11 +93,11 @@ We get to see the dashboard where the data is persistent.
 
 <h5>Prometheus dashboard : </h5>
 
-![p](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/prometheus-Dashboard.png)
+![p](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/prometheus-Dashboard.png)
 
 <h5>Grafana's dashboard :</h5>
 
-![g](https://github.com/gauravsjc02/DevOps-Task5/blob/master/task5/grafana-Dashboard2.png)
+![g](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/grafana-Dashboard2.png)
 
 
 
