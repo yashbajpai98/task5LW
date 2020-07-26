@@ -46,23 +46,23 @@ A PersistentVolume (PV) is a piece of storage in the cluster that has been provi
  
  A PersistentVolumeClaim (PVC) is a request for storage by a user.
 
-![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-prom.png)
+![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-prom.PNG)
 
 
 <h3>Persistent Volume(PV) & Persistent Volume Claim(PVC) for Grafana :-</h3>
 
-![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-graf.png)    
-![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-graf.png)
+![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-graf.PNG)    
+![pvc](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pvc-graf.PNG)
 
 After creating the pvc's we attach them to the deployment files of prometheus and grafana.
 
 <h3>Prometheus Deployment file :</h3>
 
-![prom](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-prom.png)
+![prom](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-prom.PNG)
 
 <h3>Grafana Deployment file :</h3>
 
-![gra](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-graf.png)
+![gra](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pod-graf.PNG)
 
 Here, the deployments have been created using the custom image that I have created and pushed into my DockerHub account.
 
@@ -97,7 +97,7 @@ We get to see the dashboard where the data is persistent.
 
 <h5>Grafana's dashboard :</h5>
 
-![g](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/grafana-Dashboard2.png)
+![g](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/grafana-Dashoard.png)
 
 
 
