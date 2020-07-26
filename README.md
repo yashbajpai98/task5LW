@@ -42,7 +42,7 @@ After creating the Dockerfile, I have pushed them into my dockerhub account and 
 
 A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes.
 
-![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-prom.png)   
+![pv](https://raw.githubusercontent.com/yashbajpai98/task5LW/master/task5-images/pv-prom.PNG)   
  
  A PersistentVolumeClaim (PVC) is a request for storage by a user.
 
